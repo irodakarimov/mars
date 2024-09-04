@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: "Inter", sans-serif;
+}
+
+.header__nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 1440px;
+    height: 156px;
+    box-shadow: 0 3px 5px rgb(79, 78, 78);
+    margin: 0 auto;
+}
+
+.img1 {
+    width: 205px;
+    height: 55px;
+}
+
+.header__nav ul li {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29.05px;
+    color: rgba(188, 170, 170, 1);
+
+}
+
+.header__nav ul li:hover {
+    color: orange;
+}
+
+.header__nav ul {
+    display: flex;
+    gap: 70px;
+}
+
+button {
+    width: 219px;
+    height: 63px;
+    background-color: #fff;
+    border: 2px solid rgba(239, 64, 15, 1);
+    border-radius: 20px;
+    color: rgba(239, 64, 15, 1);
+    font-size: 24px;
+}
+
+button:focus {
+    width: 219px;
+    height: 63px;
+    background-color: rgba(239, 64, 15, 1);
+    border-radius: 20px;
+    color: #fff;
+    font-size: 24px;
+}
+
+.magazin {
+    display: flex;
+    margin: 50px 150px;
+    justify-content: space-between;
+}
+
+.Magazin_mag {
+    display: flex;
+}
+
+.Magazin_mag h1 {
+    color:  rgba(13, 12, 92, 1);
+    display: flex;
+    align-items: center;
+}
+
+.Magazin_mag2 h1 {
+    color: rgba(239, 64, 15, 1);
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 38.73px;
+    display: flex;
+}
+
+.Magazin_mag2 {
+    display: flex;
+}
+
+.Magazin_mag2 img {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.h1 {
+    margin-left: 20px;
+}
+
+.h2 {
+    margin-left: 20px;
+}
+
+.cards {
+    width: 290px;
+    height: 290px;
+    border-radius: 30px;
+    box-shadow: 0 3px 10px rgb(151, 148, 148);
+    text-align: center;
+}
+
+
+.cards img {
+    margin-top: 40px;
+}
+
+.card1 {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.card2 {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 50px;
+}
+
+.card3 {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 50px;
+}
+
+footer {
+    width: 1440px;
+    height: 65px;
+    box-shadow: 0 -3px 5px rgb(79, 78, 78);
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0 auto;
+    margin-top: 50px;
+}
